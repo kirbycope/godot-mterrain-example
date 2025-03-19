@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dralelxei7wh0"]
+
+[node name="Main" type="Node3D"]
+
+[node name="MTerrain" type="MTerrain" parent="."]
+dataDir = "res://data"
+layersDataDir = "res://data/layers"
+heightmap_layers = PackedStringArray("background")
