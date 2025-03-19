@@ -1,8 +1,14 @@
-[gd_scene format=3 uid="uid://dralelxei7wh0"]
+[gd_scene load_steps=3 format=3 uid="uid://dralelxei7wh0"]
+
+[ext_resource type="Shader" uid="uid://cisub1gpao1uj" path="res://scenes/main.gdshader" id="1_o5qli"]
+
+[sub_resource type="MTerrainMaterial" id="MTerrainMaterial_0wfyh"]
+shader = ExtResource("1_o5qli")
 
 [node name="Main" type="Node3D"]
 
 [node name="MTerrain" type="MTerrain" parent="."]
 dataDir = "res://data"
 layersDataDir = "res://data/layers"
+terrain_material = SubResource("MTerrainMaterial_0wfyh")
 heightmap_layers = PackedStringArray("background")
