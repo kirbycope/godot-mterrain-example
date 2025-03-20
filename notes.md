@@ -23,7 +23,7 @@ https://github.com/mohsenph69/Godot-MTerrain-plugin/wiki/
 	1. This will create a new shader using the template, "addons/m_terrain/start.gdshader"
 1. Save the shader as `scenes/main.gdshader`
 1. Click to enable "Create"
-	1. You should now have a white sqaure in your scene, orginating at (0, 0, 0)
+	1. You should now have a white sqaure in your scene, originating at (0, 0, 0)
 
 ## Textures
 https://github.com/Arnklit/TutorialResources/blob/main/Simple%20Terrain/grass.png
