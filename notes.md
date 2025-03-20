@@ -5,12 +5,12 @@ https://github.com/mohsenph69/Godot-MTerrain-plugin/wiki/
 </br>https://github.com/mohsenph69/Godot-MTerrain-plugin/wiki/Making-Terrain-first-step!
 1. Create a new Forward+ project in Godot 4.4
 1. Select "AssetLib"
-1. Search for "M"
+1. Search for "M Terrain"
 1. Select "M Terrain plugin" and then "Download"
 1. Select "Project" > "Project Settings..."
 1. Select "Plugins"
-1. Select the box to enable "Heightmap Terrain"
-1. Create a new 3d Scene
+1. Select the box to enable "MTerrain"
+1. Create a new 3D Scene
 1. Rename the scene "Main" and save as `scenes/main.tscn`
 1. Select "Add Child Node..." > "MTerrain"
 1. In the Inspector for the MTerrain, select the folder icon next to "Data Dir"
